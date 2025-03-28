@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@layer theme {
+  :root {
+    --breakpoint-sm: 375px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1440px;
+  }
+}
