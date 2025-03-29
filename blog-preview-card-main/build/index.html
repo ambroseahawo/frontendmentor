@@ -10,8 +10,40 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="bg-[#f4d14e] flex justify-center items-center min-h-screen px-6 py-4">
+  <div class="bg-white p-6 rounded-2xl shadow-lg max-w-sm md:mx-w-md">
+    <!-- image -->
+    <div class="rounded-2xl overflow-hidden">
+      <img src="assets/images/illustration-article.svg" alt="blog-preview" class="w-full">
+    </div>
 
+    <!-- card details -->
+    <div class="flex flex-col items-start gap-4 mt-4">
+      <!-- image label -->
+      <div class="bg-[#f4d14e] px-3 py-1 rounded-md">
+        <h3 class="text-sm font-semibold">Learning</h3>
+      </div>
+
+      <!-- publish date -->
+      <p class="text-sm text-gray-600">Published 21 Dec 2023</p>
+
+      <!-- heading -->
+      <h1 class="text-lg font-bold hover:text-[#f4d14e] transition duration-300 cursor-pointer">
+        HTML &amp; CSS Foundations
+      </h1>
+
+      <!-- paragraph -->
+      <p class="text-gray-600 text-sm">These languages are the backbone of every website, defining structure, content,
+        and
+        presentation</p>
+
+      <!-- author -->
+      <div class="flex items-center gap-3">
+        <img src="assets/images/image-avatar.webp" alt="author-avatar" class="w-8 h-8 rounded-full">
+        <p class="text-sm font-semibold">Greg Hooper</p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
